@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    background-color: #c64feb;
+}
+.banner{
+    background-image: url(../IMG/foto-erin.jpeg); 
+    height: 90vh; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.banner h1{
+    color: #F9F7F7;
+    margin: 0;
+    font-size: 35pt;
+}
+.banner p{
+    color: #F9F7F7;
+    margin: 0;
+    font-size: 15pt;
+}
+
+.banner button{
+    background-color: white;
+    color: #7E4598;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+.sobre{
+    margin-left: 10%; 
+}
+#sobre:target{ 
+    margin-left: 10%;    
+}
+
+h2{
+    font-size: 25;
+}
+
+h3{
+    font-size: 15pt;
+}
+
+p, li{
+    font-size: 14pt;
+}
+
+.sobre button{
+    margin-top: 10px;
+    color: #7E4598;
+    padding: 10px;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.descricao, .habilidades{
+    display: inline-block;
+    width: 35%;
+} 
+ 
+.habilidades{
+    margin-left: 10%; 
+    margin-top: 0;
+}
+.habilidades h3{
+    margin-top: 0;
+}
+
+.sobre h2, h3{
+    color: #F5EA5A; 
+    
+}
+.sobre p, li{
+    color: whitesmoke; 
+}
+
+button{
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: rgb(243, 243, 243);
+    transition: 0.5s;
+    transform: scale(1.1); 
+    
+}
+.redes{
+    text-align: center;
+    color: #F5EA5A; 
+}
+
+.contatos{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-bottom: 20px;
+
+}
+footer{
+    color: whitesmoke; 
+    text-align: center;
+}
+.contatos button{
+    background-color: #c64feb;
+    border: none;
+}
